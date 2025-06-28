@@ -19,8 +19,8 @@ class ApiError extends Error {
     
 
 
-    if (statck) {
-      this.stack = statck;
+    if (stack) {
+      this.stack = stack;
 
         
     } else{
